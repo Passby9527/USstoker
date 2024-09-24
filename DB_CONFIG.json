@@ -1,0 +1,10 @@
+{
+    "sqlite": {
+        "drivername": "sqlite",
+        "database": "example.db",
+        "username": null,
+        "password": null,
+        "host": null,
+        "port": null
+    }
+}
