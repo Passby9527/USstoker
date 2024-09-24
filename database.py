@@ -75,6 +75,7 @@ class DB:
                 ]
         self.session.add_all(stocks_object)
         self.session.commit()
+        return stocks_object
 
     def read_stock(self, stock_id):
         data = self.session.query(USStock).filter(USStock.id == stock_id).first()

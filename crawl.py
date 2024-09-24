@@ -47,7 +47,7 @@ def crawl_cnyes(stock):
         print(f"發生錯誤: {e}")
     
     finally:
-        return {"stock_symbol":stock, "price":close_price, "date":date}
+        return {"stock_symbol":stock, "close_price":close_price, "date":date}
 
 if __name__=="__main__":
     target_stocks = ["TSLA", "META"]
